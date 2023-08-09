@@ -18,7 +18,8 @@ while True:
         print('Digite apenas 1 ou 2')
         continue
 
-      
+        
+
 class TimerPomo:
     def __init__(self, numero_ciclos, tempo_trabalho, tempo_descanso_curto, tempo_descanso_longo):
         self.numero_ciclos = numero_ciclos
@@ -46,6 +47,7 @@ class TimerPomo:
                     menu()
                     
     
+
     def timer(self, t):
         
         while t:
